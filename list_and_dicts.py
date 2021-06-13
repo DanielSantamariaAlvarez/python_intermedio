@@ -28,10 +28,11 @@ def list_comprenhension():
     print(len(square))
 
 def dict_comprenhension():
-    my_dict = {}
+    """ my_dict = {}
     for i in range(1,101):
         my_dict[i] = i**2
-
+    """
+    my_dict = {i: i**2 for i in range(1,101)}
     print(my_dict)
     
 
